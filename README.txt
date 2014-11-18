@@ -1,6 +1,9 @@
 
 How to use the epigenomics model:
 
+Download the required additional data files at: https://www.dropbox.com/sh/yhvkps4g1uucryn/AAB7Kp8UengB9F_YfNl284D7a?dl=0
+Put epigenomic_regluation.R in the same directory as these data files.  Maintain the structure of all subdirectories.
+
 Open epigenomic_regulation.R in Rstudio or any text editor.
 This R script requires two files from user input:
 	File 1) default: "user_input/lung_cancer_meth450.Rdata".  This is an Rdata file containing a data frame of differential methylation results as processed by limma.  Load the default file into R to see an example.  Name this variable "cpgs_limma"
